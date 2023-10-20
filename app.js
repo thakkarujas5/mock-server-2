@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 
 // Route 1: Create a new user
-app.post('/api/tgsp', (req, res) => {
+app.get('/api/tgsp', (req, res) => {
  
   return res.json({
     gstin: "29AJIPA1572ER2M",
